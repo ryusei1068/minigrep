@@ -78,10 +78,6 @@ mod test {
     #[test]
     fn case_sensitive() {
         let query = "duct";
-        // Rust
-        // 安全かつ高速で生産的
-        // 三つを選んで
-        // ガムテープ
         let contents = "\
 Rust:
 safe, fast, productive.
@@ -94,8 +90,6 @@ Duct tape.";
     #[test]
     fn case_insensitive() {
         let query = "rUsT";
-        // (最後の行のみ)
-        // 私を信じて
         let contents = "\
 Rust:
 safe, fast, productive.
